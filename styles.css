@@ -12,14 +12,14 @@ body {
 
 #header-logo {
     color: #E5E7EB;
-    margin-left: 150px;
+    margin-left: 10vw;
 }
 
 #header-links {
     display: flex;
     list-style: none;
     gap: 2em;
-    margin-right: 150px;
+    margin-right: 10vw;
 }
 
 #header-links a {
@@ -48,11 +48,11 @@ body {
 }
 
 #top-section-left {
-    margin-left: 150px;
+    margin-left: 10vw;
 }
 
 #top-section-right {
-    margin-right: 150px;
+    margin-right: 10vw;
 }
 
 #top-section-container {
@@ -85,21 +85,35 @@ body {
 
 #image-list {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0 10vw;
     font-size: 14px;
     text-align: center;
+
 }
 
 .subtext {
-    
+    width: 16vw;
 }
 
 .image-with-subtext img{
+    border-radius: 10%;
     width: 18vw;
-    height: 18vw;
-    padding: 20px;
-    
-    
-   
+    height: 18vw; 
+}
+
+#quote-container {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+    font-style: italic;
+    margin: 4vw 0;
+    padding: 8vw;
+}
+
+#quote-credit {
+    text-align: right;
+    font-style: normal;
+    font-weight: 400;
 }
