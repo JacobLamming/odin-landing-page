@@ -80,6 +80,7 @@ body {
 
 #random-info-container {
     text-align: center;
+    margin-top: 3vw;
 
 }
 
@@ -116,4 +117,25 @@ body {
     text-align: right;
     font-style: normal;
     font-weight: 400;
+}
+
+#sign-up-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 3vh 3vh 10vw;
+    border-radius: 10px;
+    color: #E5E7EB;
+    padding: 20px;
+}
+
+#sign-up-bold {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#sign-up-lower {
+    font-size: 15px;
+    margin-top: -15px;
 }
