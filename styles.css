@@ -139,3 +139,10 @@ body {
     font-size: 15px;
     margin-top: -15px;
 }
+
+#footer-container {
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
